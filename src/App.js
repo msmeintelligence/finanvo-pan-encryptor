@@ -31,8 +31,8 @@ function decrypt(ciphertext) {
 
 function App() {
   const [pan, setPan] = useState("AACCY1118L");
-  const [apiKey, setApiKey] = useState("XPw6TGBL2v");
-  const [apiSecretKey, setApiSecretKey] = useState("1iHPzqJhzpOzgrDFElbGCEbzm6b9Sk7CgDgQNPNNZ");
+  const [apiKey, setApiKey] = useState("");
+  const [apiSecretKey, setApiSecretKey] = useState("");
   const [response, setResponse] = useState(null);
   const [loading, setLoading] = useState(false);
 
