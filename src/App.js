@@ -55,7 +55,7 @@ function App() {
       console.log("safePAN =", safePAN)
 
       // Build URL
-      const url = `https://api.finanvo.in/pan/detailed-report/enc-info?pan=${safePAN}`;
+      const url = `https://api5.finanvo.in/pan/detailed-report/enc-info?pan=${safePAN}`;
       // const url = `http://localhost:3000/pan/detailed-report/enc-info?pan=${safePAN}`;
 
       if(!apiKey || !apiSecretKey){
